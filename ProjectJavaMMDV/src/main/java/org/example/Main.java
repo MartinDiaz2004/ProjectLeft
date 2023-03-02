@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-              //desarrollar un program,a que le pregunte a el usuario 3 numeros y que le diga cual es mayor 3
+        //desarrollar un program,a que le pregunte a el usuario 3 numeros y que le diga cual es mayor 3
 /*
         System .out .println("favor de ingresar los numeros ");
         Scanner scanner =new Scanner(System.in);
@@ -54,15 +54,79 @@ public class Main {
         }
 
 /*/
-
+/*
         for (int i=0; i<10; i++) {
             System.out.println("i vale:" +i);
         }
 
+*/
+        /*
+        Scanner scanner = new Scanner(System.in);
+        String nombre;
+        for (int i=0; i<5; i++) {
+
+            System.out.println("cual es tu nombre");
 
 
+            nombre = scanner.nextLine();
 
 
+            System.out.println("el nombre es "+nombre);
+        }
+
+
+         */
+
+/*
+        Scanner scanner = new Scanner(System.in);
+        int numero;
+        for (int i=0; i<3; i++) {
+
+            System.out.println("ingrese numero");
+            numero = scanner.nextInt();
+            System.out.println("el numero al cuadrado es "+numero*numero);
+        }
+
+ */
+/*
+        Scanner sacnner = new Scanner(System.in);
+        int numero1;
+        int numero2;
+        int resultado;
+
+        for(int i=0; i<6; i++){
+            System.out.println("ingrese el primer numero");
+            numero1 =sacnner.nextInt();
+            System.out.println("ingrese el segundo numero");
+            numero2 =sacnner.nextInt();
+            resultado = numero1 + numero2;
+            System.out.println("el resultado es "+ resultado);
+        }
+
+ */
+        /*
+        Scanner sacnner = new Scanner(System.in);
+        int edad;
+        for(int i=0; i<4; i++) {
+        System.out.println("ingrese su edad");
+        edad = sacnner.nextInt();
+            if (edad>17){
+                System.out.println("es mayor de edad");
+            }
+            else{
+            System.out.println("no es mayor de edad");
+            }
+        }
+/*
+
+
+        Scanner scanner = new Scanner(System.in);
+        double miArrayDouble[] = new double[7];
+
+        for(int i=0; i<7; i++){
+            miArrayDouble[i] =scanner.nextDouble();
+        }
+*/
 
 
     }
