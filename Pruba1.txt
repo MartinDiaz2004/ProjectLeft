@@ -1,0 +1,5 @@
+git merge :permite tomar linas independientes de desarrollo creadas por git bach he integradas por una sola rama
+
+git pull: extrae y desacrga contenido contenido desde un repositorio remote y actualizar al instante el repositorio local para reflejar ese contenido
+
+git fech : descarga contenidos deasde un repósitorio
